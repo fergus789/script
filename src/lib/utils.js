@@ -5,6 +5,7 @@ const Octokit = require('@octokit/rest')
 const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN
 })
+console.log(process.env.GITHUB_TOKEN)
 
 const getEventList = function(params) {
   const query = qs.stringify(Object.assign(params,{
