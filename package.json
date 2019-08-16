@@ -1,0 +1,24 @@
+{
+  "name": "smartfund-script",
+  "version": "1.0.0",
+  "description": "SmartFund scripts",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fergus789/script.git"
+  },
+  "author": "fergus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fergus789/script/issues"
+  },
+  "homepage": "https://github.com/fergus789/script#readme",
+  "dependencies": {
+    "@octokit/rest": "^16.28.7",
+    "axios": "^0.19.0",
+    "bluebird": "^3.5.5"
+  }
+}
