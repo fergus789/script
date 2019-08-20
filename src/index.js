@@ -1,1 +1,2 @@
-require('../src/scripts/market-trend.js')
+const marketPrice = require('../src/scripts/market-price.js')
+marketPrice()
