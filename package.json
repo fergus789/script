@@ -18,7 +18,7 @@
   "homepage": "https://github.com/fergus789/script#readme",
   "dependencies": {
     "@octokit/rest": "^16.28.7",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "axios-retry": "^3.1.2",
     "bluebird": "^3.5.5",
     "web3-eth-abi": "^1.2.1",
